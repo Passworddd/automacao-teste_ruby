@@ -1,7 +1,7 @@
 #language: pt
 
 Funcionalidade: Cadastro de Usuário
-  Sendo um visitante do site Parodify
+  Sendo um visitante do Outgo
   Quero fazer o meu cadastro
   Para que eu possa ouvir minhas músicas favoritas
 
@@ -14,7 +14,7 @@ Funcionalidade: Cadastro de Usuário
       |senha_confirma|hunterxhunter         |
     Então devo ser redirecionado para a área logada
 
-
+  @Email_void
   Cenário: Email não informado
     Dado que acesso a página de cadastro
     Quando submeto o meu cadastro sem o email
